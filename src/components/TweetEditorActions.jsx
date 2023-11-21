@@ -7,7 +7,7 @@ const TweetEditorActions = () => {
             <GoFileMedia />
             <MdOutlineGifBox />
             <MdSchedule />
-            <span>Icons</span>
+
             <span>Icons</span>
         </div>
     );

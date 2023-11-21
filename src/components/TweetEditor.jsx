@@ -1,14 +1,10 @@
-import TweetEditorForm from "./TweetEditorForm";
-import TweetEditorInput from "./TweetEditorInput";
 import Avatar from "./Avatar";
-import TweetEditorButtons from "./TweetEditorButtons";
+import TweetEditorForm from "./TweetEditorForm";
 const TweetEditor = () => {
     return (
         <div className="tweet-editor">
             <Avatar />
-            <TweetEditorInput />
             <TweetEditorForm />
-            <TweetEditorButtons />
         </div>
     );
 };
