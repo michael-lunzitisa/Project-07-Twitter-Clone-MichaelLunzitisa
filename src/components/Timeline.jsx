@@ -1,11 +1,12 @@
 import Header from "./Header";
-import Avatar from "./Avatar";
+
+import TweetEditor from "./TweetEditor";
 
 const Timeline = () => {
     return (
         <div className="timeline">
             <Header />
-            <Avatar />
+            <TweetEditor />
         </div>
     );
 };
