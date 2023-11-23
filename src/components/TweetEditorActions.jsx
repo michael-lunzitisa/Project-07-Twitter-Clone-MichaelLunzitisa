@@ -1,14 +1,16 @@
-import { GoFileMedia } from "react-icons/go";
-import { MdOutlineGifBox } from "react-icons/md";
-import { MdSchedule } from "react-icons/md";
+import media from "./../images/Media.svg";
+import gif from "./../images/Gif.svg";
+import poll from "./../images/Poll.svg";
+import emoji from "./../images/Emoji.svg";
+import schedule from "./../images/Schedule.svg";
 const TweetEditorActions = () => {
     return (
         <div className="tweet-editor-actions">
-            <GoFileMedia />
-            <MdOutlineGifBox />
-            <MdSchedule />
-
-            <span>Icons</span>
+            <img src={media} alt="media" />
+            <img src={gif} alt="gif" />
+            <img src={poll} alt="poll" />
+            <img src={emoji} alt="emoji" />
+            <img src={schedule} alt="schedule" />
         </div>
     );
 };
