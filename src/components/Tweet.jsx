@@ -36,6 +36,7 @@ const tweets = [
         pseudo: "@Twitter",
         badge: "src/images/Vector.svg",
         avatar: "src/images/image2.svg",
+        tweetImage: "",
         favorite: "180",
         valueReply: "6.8K",
         valueRetweet: "36.6",
@@ -49,6 +50,7 @@ const tweets = [
         pseudo: "@Twitter",
         badge: "src/images/Vector.svg",
         avatar: "src/images/image2.svg",
+        tweetImage: "",
         favorite: "180",
         valueReply: "118.7K",
         valueRetweet: "785.4K",
@@ -62,6 +64,7 @@ const tweets = [
         pseudo: "@Twitter",
         badge: "src/images/Vector.svg",
         avatar: "src/images/image2.svg",
+        tweetImage: "src/images/tweet-image.png",
         favorite: "180",
         valueReply: "118.7K",
         valueRetweet: "785.4K",
@@ -69,6 +72,16 @@ const tweets = [
         valuereReolies: "",
     },
 ];
+
+const TweetImage = ({ source }) => {
+    if (source != "") {
+        return (
+            <div className="tweet-image">
+                <img src={source} alt="avatar-image" />
+            </div>
+        );
+    }
+};
 
 const Tweet = () => {
     return (
@@ -102,12 +115,7 @@ const Tweet = () => {
                                 <p className="tweet-text">
                                     <span>{tweet.texte}</span>
                                 </p>
-                                <div className="tweet-image">
-                                    <img
-                                        src={tweet.tweetImage}
-                                        alt="avatar-image"
-                                    />
-                                </div>
+                                <TweetImage source={tweet.tweetImage} />
                             </div>
                             <TweetAction
                                 valueReply={tweet.valueReply}
