@@ -1,5 +1,5 @@
-import Header from "./Header";
-import TweetEditor from "./TweetEditor";
+import Header from "./header";
+import TweetEditor from "./tweetEditor";
 import Tweets from "./tweets";
 
 const Timeline = () => {

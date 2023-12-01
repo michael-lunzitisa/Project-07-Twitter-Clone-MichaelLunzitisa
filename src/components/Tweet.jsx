@@ -1,4 +1,4 @@
-import TweetAction from "./TweetAction";
+import TweetAction from "./tweetAction";
 
 const tweets = [
     {

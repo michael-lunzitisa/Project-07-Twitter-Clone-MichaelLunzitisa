@@ -1,4 +1,4 @@
-import PageTitle from "./PageTitle";
+import PageTitle from "./pageTitle";
 import TopTweets from "./topTweets";
 
 const Header = () => {

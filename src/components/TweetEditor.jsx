@@ -1,5 +1,5 @@
-import Avatar from "./Avatar";
-import TweetEditorForm from "./TweetEditorForm";
+import Avatar from "./avatar";
+import TweetEditorForm from "./tweetEditorForm";
 const TweetEditor = () => {
     return (
         <div className="tweet-editor">
