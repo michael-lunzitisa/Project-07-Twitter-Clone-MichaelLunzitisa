@@ -193,3 +193,141 @@ body{
     justify-content: center;
     gap: 20px;
 }
+App{
+    display: flex;
+}
+.sidebarOption{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding: 10px;
+}
+.sidebarOption>h2{
+    font-weight: 800;
+    font-size: 20px;
+    margin-right: 20px;
+}
+.sidebarOption:hover{
+    background-color: #e8f5fe;
+    border-radius: 30px;
+    color: #50b7f5;
+    transition: color 100ms ease-out;
+}
+.sidebar__tweet{
+    text-transform: capitalize;
+    padding: .7rem 1.5rem;
+    border: none;
+    border-radius: 50px;
+    background-color: #1D9BF0;
+    color: white;
+    font-size: 1rem;
+    margin-top: 20px;
+    padding: 10px 70px;
+
+}
+.trends__input{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+   
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.trends__input>input{
+    border-radius: 20px;
+    padding: 10px 70px;
+    border: none;
+    background-color: #e8f5fe;
+}
+.trends__searchIcon{
+    color: #dee3ed;
+    margin-left: 60px;
+    position: relative;
+}
+.trends__container{
+    margin-top: 15px;
+    margin-left: 20px;
+    padding: 20px;
+    background-color: #808080;
+    border-radius: 20px;
+}
+.trends__container>h2{
+    font-size: 18px;
+    font-weight: 800;
+}
+.tweet-action:hover{
+  color: #1D9BF0;
+  border-radius: 80px;
+  cursor: pointer;
+
+}
+.trends__search{
+    display: flex;
+    gap: 10px;
+    border-radius: 40px;
+    padding: 10px 15px;
+    background-color: #16181c;
+    margin-top: 4px;
+}
+.trends__search input{
+    border: none;
+    background-color: #16181c;
+    outline: none;
+    color: #ffffff;
+    width: 100%;
+    border-radius: 20px;
+    padding: 6px 10px;
+}
+
+.trends__card,
+.follow__card
+{
+    background-color: #16181c;
+    border-radius: 20px;
+    padding: 15px;
+    margin-top: 10px;
+  
+}
+.trends__title  img{
+    display: flex;
+    justify-content: space-between;
+}
+.trends__text__small{
+    font-size: 15px;
+    color: #6E767D;
+}
+.trends__show__more a {
+    color: #1D9BF0;
+    text-decoration: none;
+}
+.follow__items button {
+    padding: .4rem 1rem;
+    border: none;
+    border-radius: 50px;
+    background-color: white;
+}
+.follow__items img{
+    width: 40px;
+    height: 40px;
+}
+
+.follow__flex{
+    display: flex;
+    margin-top: 5px;
+    padding: 10px 0;
+    gap: 10px;
+}
+.trends__flex{
+    display: flex;
+    margin-top: 5px;
+    padding: 10px 0;
+    justify-content: space-between;
+}
+.policy a{
+    font-size: 14px;
+    font-weight: normal;
+    text-align: center;
+    text-decoration: none;
+    color: #6E767D;
+    padding: 5px;
+}
