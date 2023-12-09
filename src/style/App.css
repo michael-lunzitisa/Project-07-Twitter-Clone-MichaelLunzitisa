@@ -196,6 +196,9 @@ body{
 App{
     display: flex;
 }
+h2,p,a{
+    font-family: 'Inter', sans-serif;
+}
 .sidebarOption{
     display: flex;
     align-items: center;
@@ -203,14 +206,17 @@ App{
     padding: 10px;
 }
 .sidebarOption>h2{
-    font-weight: 800;
+    font-weight: 400;
     font-size: 20px;
     margin-right: 20px;
 }
+.sidebarOption img{
+    padding: 0 18px;
+}
 .sidebarOption:hover{
-    background-color: #e8f5fe;
+    background-color: #8f96a33c;
     border-radius: 30px;
-    color: #50b7f5;
+    color: #e8f5fe;
     transition: color 100ms ease-out;
 }
 .sidebar__tweet{
@@ -224,6 +230,10 @@ App{
     margin-top: 20px;
     padding: 10px 70px;
 
+}
+.sidebar__icon__twitter{
+    margin-left: 30px;
+    margin-top: 20px;
 }
 .trends__input{
     display: flex;
@@ -331,3 +341,101 @@ App{
     color: #6E767D;
     padding: 5px;
 }
+
+.profile__title{
+    display: flex;
+    gap: 20px;
+    padding: .5rem 1rem;
+    border-bottom: 1px solid #2F3336;
+}
+.arraw__back{
+    display: flex;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    transition: ease-in-out .2s;
+    cursor: pointer;
+}
+.arraw__back:hover{
+    background-color: #181818;
+}
+.arraw__back img{
+    width: 26px;
+}
+
+.user__about{
+    padding-left: 20px;
+    margin-top: 40px;
+}
+.button__edit__profile{
+    font-weight: 700;
+    font-size: 16px;
+    border: 1px solid #fff;
+    color: #fff;
+    border-radius: 50px;
+    background-color: transparent;
+    padding: .6rem 1.1rem;
+    margin-left: 80%;
+    margin-top: -70px;
+    transition: ease-in-out .2s;
+    cursor: pointer;
+}
+.user__about button:hover{
+    background-color: #181818;
+}
+
+.user__about h2 {
+  margin-top: 70px;
+  padding-bottom: 10px;
+}
+.user__content {
+  margin-top: 10px;
+}
+.user__stats {
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+  color: #646464;
+}
+
+.stat__value {
+  font-weight: 600;
+  color: white;
+}
+
+.profile__nav{
+    display: flex;
+    margin: 35px;
+    justify-content: space-between;
+    font-weight: 600;
+    cursor: pointer;
+    border-bottom: 1px solid #2F3336;
+    color: #646464; 
+    padding: 16px 30px;
+}
+.profile__nav p:hover{
+    background-color: #181818;
+    padding: 10px;
+}
+
+.User__image{
+    position: relative;
+}
+
+.User__image .picture__couverture{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    background-color: #646464;
+
+}
+.User__image .picture__profile {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    top: 120px;
+    margin-left: 20px;
+    border-radius: 50%;
+    border: 5px solid #fff;
+  }

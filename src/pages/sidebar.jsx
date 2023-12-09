@@ -1,19 +1,27 @@
 import birdTwitter from "./../images/BirdTwitter.svg";
 import SidebarOption from "../components/sidebarOption";
 import home from "../images/home.svg";
+import explore from "../images/explore.svg";
+import notifications from "../images/notifications.svg";
+import message from "../images/message.svg";
+import bookmarks from "../images/bookmarks.svg";
+import lists from "../images/lists.svg";
+import profile from "../images/profil.svg";
+import more from "../images/more.svg";
+
 
 const Sidebar = () => {
   return (
     <div className="sidebar">
-      <img src={birdTwitter} alt="image bird twitter" />
+      <img src={birdTwitter} alt="image bird twitter" className="sidebar__icon__twitter"/>
       <SidebarOption Icon={home} text="Home" />
-      <SidebarOption text="Explore" />
-      <SidebarOption text="Notifications" />
-      <SidebarOption text="Messages" />
-      <SidebarOption text="Bookmarks" />
-      <SidebarOption text="Lists" />
-      <SidebarOption text="Profile" />
-      <SidebarOption text="More" />
+      <SidebarOption Icon={explore} text="Explore" />
+      <SidebarOption Icon={notifications} text="Notifications" />
+      <SidebarOption Icon={message} text="Messages" />
+      <SidebarOption Icon={bookmarks} text="Bookmarks" />
+      <SidebarOption Icon={lists} text="Lists" />
+      <SidebarOption Icon={profile} text="Profile" />
+      <SidebarOption Icon={more} text="More" />
       <button className="sidebar__tweet">Tweet</button>
     </div>
   );

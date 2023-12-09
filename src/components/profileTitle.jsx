@@ -2,7 +2,7 @@ import  arrawBack  from "./../images/arrow-back.svg";
 const ProfileTitle = () => {
     return ( 
         <div className="profile__title">
-            <div className="">
+            <div className="arraw__back">
                 <img src={arrawBack} alt="icon arraw-back" />
             </div>
             <div>

@@ -1,6 +1,7 @@
 import Header from "./header";
 import TweetEditor from "./tweetEditor";
 import Tweets from "./tweets";
+import Profile from "./profile";
 
 const Timeline = () => {
     return (
@@ -8,6 +9,7 @@ const Timeline = () => {
             <Header />
             <TweetEditor />
             <Tweets />
+            <Profile/>
         </div>
     );
 };
