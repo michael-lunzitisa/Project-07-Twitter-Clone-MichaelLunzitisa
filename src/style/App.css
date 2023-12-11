@@ -416,7 +416,11 @@ h2,p,a{
 }
 .profile__nav p:hover{
     background-color: #181818;
-    padding: 10px;
+    
+}
+.profile__nav .post{
+    border: 2px solid #1D9BF0;
+    border-radius: 50px ;
 }
 
 .User__image{
@@ -427,7 +431,7 @@ h2,p,a{
     width: 100%;
     height: 200px;
     object-fit: cover;
-    background-color: #646464;
+    background-color: #333639;
 
 }
 .User__image .picture__profile {

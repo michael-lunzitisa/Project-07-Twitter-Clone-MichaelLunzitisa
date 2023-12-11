@@ -9,7 +9,6 @@ const Timeline = () => {
             <Header />
             <TweetEditor />
             <Tweets />
-            <Profile/>
         </div>
     );
 };
