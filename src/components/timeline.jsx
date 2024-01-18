@@ -1,14 +1,13 @@
-import Header from "./header";
-import TweetEditor from "./tweetEditor";
-import Tweets from "./tweets";
-import Profile from "./profile";
+import Header from "./Header";
+import Tweet from "./Tweet";
+import TweetEditor from "./TweetEditor";
 
 const Timeline = () => {
     return (
         <div className="timeline">
             <Header />
             <TweetEditor />
-            <Tweets />
+            <Tweet />
         </div>
     );
 };

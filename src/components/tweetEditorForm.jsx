@@ -1,5 +1,6 @@
-import TweetEditorButtons from "./tweetEditorButtons";
-import TweetEditorInput from "./tweetEditorInput";
+import TweetEditorInput from "./TweetEditorInput";
+import TweetEditorButtons from "./TweetEditorButtons";
+
 const TweetEditorForm = () => {
     return (
         <div className="tweet-editor-form">

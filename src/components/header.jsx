@@ -1,11 +1,11 @@
-import PageTitle from "./pageTitle";
-import TopTweets from "./topTweets";
+import PageTitle from "./PageTitle";
+import TopTweet from "./TopTweet";
 
 const Header = () => {
     return (
         <div className="header">
             <PageTitle />
-            <TopTweets />
+            <TopTweet />
         </div>
     );
 };

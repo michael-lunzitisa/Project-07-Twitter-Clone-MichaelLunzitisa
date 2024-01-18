@@ -1,5 +1,5 @@
-import TweetEditorActions from "./tweetEditorActions";
-import Button from "./button";
+import TweetEditorActions from "./TweetEditorActions";
+import Button from "./Button";
 const TweetEditorButtons = () => {
     return (
         <div className="tweet-editor-buttons">

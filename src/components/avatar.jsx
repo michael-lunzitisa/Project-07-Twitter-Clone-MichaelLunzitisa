@@ -1,9 +1,7 @@
-import avatar from "./../images/profile-photo.png";
-
-const Avatar = () => {
+const Avatar = ({ source }) => {
     return (
         <div className="avatar">
-            <img src={avatar} alt="image-profile-photo" />
+            <img src={source} alt="Image profile" />
         </div>
     );
 };
