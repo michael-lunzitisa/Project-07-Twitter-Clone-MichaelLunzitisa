@@ -7,9 +7,9 @@ const ProfileSetting = () => {
             <img src={userProfile} className="user-avatar" alt="icone" />
             <div className="user-detail">
                 <h4>
-                    Michael <img src={privateIcon} alt="icone" />
+                    Bradley Ortiz <img src={privateIcon} alt="icone" />
                 </h4>
-                <p className="small-text">@Lunzitisa</p>
+                <p className="small-text">@bradley_</p>
             </div>
             <img src={moreIcon} className="more-2" alt="icone" />
         </div>

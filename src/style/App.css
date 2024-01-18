@@ -222,6 +222,7 @@ a {
     align-items: center;
     cursor: pointer;
     padding: 10px;
+    
 }
 
 .sidebarOption>h2 {
@@ -231,7 +232,8 @@ a {
 }
 
 .sidebarOption img {
-    padding: 0 18px;
+    padding: 0 20px;
+    
 }
 
 .sidebarOption:hover {
@@ -251,6 +253,7 @@ a {
     font-size: 1rem;
     margin-top: 20px;
     padding: 10px 70px;
+    
 
 }
 
@@ -263,7 +266,6 @@ a {
     display: flex;
     align-items: center;
     padding: 10px;
-
     margin-top: 10px;
     margin-left: 20px;
 }
@@ -459,14 +461,23 @@ a {
     padding: 16px 30px;
 }
 
-.profile__nav p:hover {
-    background-color: #181818;
+.profile__nav p {
+    
+    color: #646464;
+    padding: 16px 30px;
 
+}
+.profile__nav p:hover {
+    color: #646464;
+    padding: 16px 30px;
+    background-color: #181818;
 }
 
 .profile__nav .post {
-    border: 2px solid #1D9BF0;
-    border-radius: 50px;
+
+    border-bottom: 4px solid #1D9BF0;
+    border-radius: 2px;
+    color: white !important;
 }
 
 .User__image {
@@ -510,12 +521,14 @@ a {
     font-weight: 600;
 }
 
-.user-profil .user-detail {
+.user-detail {
     margin: 0 20px 0 4px;
+    font-family: 'Inter', sans-serif;
+    
 }
 
 
-.sidebar .user-profil h4 {
+.user-profil h4 {
     font-weight: 500;
     font-size: 16px;
     display: flex;
