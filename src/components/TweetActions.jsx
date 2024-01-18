@@ -24,12 +24,7 @@ const TweetActions = ({ tweet }) => {
   };
   return (
     <div className="tweet-actions ">
-      <TweetAction
-        icon={ReplyIcon}
-        reactions={tweet.comments}
-        title="Reply"
-        iconType="reply"
-      />
+      <TweetAction icon={ReplyIcon} reactions={tweet.comments} />
       <TweetAction icon={RetweetIcon} reactions={tweet.retweet} />
       <TweetAction
         icon={likesIcon}
