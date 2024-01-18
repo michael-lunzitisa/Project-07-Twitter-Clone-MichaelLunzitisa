@@ -1,13 +1,13 @@
-import PageTitle from "./PageTitle";
+import PageTitle from "../components/pageTitle";
 import TopTweet from "./TopTweet";
 
 const Header = () => {
-    return (
-        <div className="header">
-            <PageTitle />
-            <TopTweet />
-        </div>
-    );
+  return (
+    <div className="header">
+      <PageTitle />
+      <TopTweet />
+    </div>
+  );
 };
 
 export default Header;

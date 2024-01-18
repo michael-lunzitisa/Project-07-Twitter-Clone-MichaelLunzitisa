@@ -235,6 +235,9 @@ a {
     padding: 10px;
     
 }
+.sidebarOption {
+    text-decoration: none;
+}
 
 .sidebarOption>h2 {
     font-weight: 400;
@@ -554,4 +557,10 @@ a {
     border-radius: 50%;
     padding: 20px;
     cursor: pointer;
+}
+.navLink{
+    text-decoration: none;
+    color: #fff;
+    margin: 0;
+    padding: 0;
 }

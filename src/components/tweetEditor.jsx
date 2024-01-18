@@ -1,14 +1,14 @@
-import Avatar from "./Avatar";
-import TweetEditorForm from "./TweetEditorForm";
+import Avatar from "../components/avatar";
+import TweetEditorForm from "../components/tweetEditorForm";
 import avataProfile from "../images/profile-photo.png";
 
 const TweetEditor = () => {
-    return (
-        <div className="tweet-editor">
-            <Avatar source={avataProfile} />
-            <TweetEditorForm />
-        </div>
-    );
+  return (
+    <div className="tweet-editor">
+      <Avatar source={avataProfile} />
+      <TweetEditorForm />
+    </div>
+  );
 };
 
 export default TweetEditor;
