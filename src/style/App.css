@@ -217,6 +217,17 @@ a {
     font-family: 'Inter', sans-serif;
 }
 
+.sidebar{
+    position: sticky;
+    top: 0;
+    height: 100%;
+}
+.trends{
+    position: sticky;
+        top: 0;
+        height: 100%;
+}
+
 .sidebarOption {
     display: flex;
     align-items: center;
