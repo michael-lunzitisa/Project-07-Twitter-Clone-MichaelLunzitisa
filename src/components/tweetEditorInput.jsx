@@ -1,11 +1,13 @@
 const TweetEditorInput = () => {
     return (
         <div>
-            <input
-                type="text"
-                placeholder="What's happening ?"
-                className="tweet-editor-input"
-            />
+            <form>
+                <input
+                    type="text"
+                    placeholder="What's happening ?"
+                    className="tweet-editor-input"
+                />
+            </form>
         </div>
     );
 };

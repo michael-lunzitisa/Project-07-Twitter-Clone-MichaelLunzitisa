@@ -1,7 +1,7 @@
 import React from "react";
 
 const TweetAction = ({ icon, reactions, handleClick, liked = false }) => {
-    console.log(reactions, "Tweet action");
+    // console.log(reactions, "Tweet action");
     return (
         <div className="tweet-action">
             <img
