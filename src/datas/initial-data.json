@@ -1,0 +1,141 @@
+{ "current-user": {
+        "id": "1",
+        "sourceCoverPhoto": "src/images/tweet-image.png",
+        "sourceprofilePicture": "src/images/profile-photo.png",
+        "avatar": "src/images/profile-photo.png",
+        "name": "Bradley Ortiz",
+        "username": "@bradley_",
+        "post": "25",
+        "bio": "I'm a software engineer from Kinshasa, Congo.",
+        "location": "Kinshasa, Congo",
+        "websiteLink": "www.newyork.com",
+        "joinedDate": "Joined November 2023",
+        "followers": 16,
+        "following": 53
+    }, 
+    
+    "tweets": [
+    {
+        "id": 1,
+        "text": "President Joe Biden touted a new agreement reached with the European Union to ease Trump-era tariffs on aluminum and steel as a major breakthrough that would serve to both strengthen the US steel industry and combat the global climate crisis.",
+        "date": "7m",
+        "author": "CNN",
+        "pseudo": "@CNN",
+        "badge": "src/images/Vector.svg",
+        "avatar": "src/images/tweet-profile-photo.png",
+        "tweetImage": "",
+        "likes": {
+            "liked": false,
+            "nb": "15"
+        },
+        "comments": "59",
+        "retweet": "144",
+        "share": "",
+        "post": "25",
+        "bio": "I'm a software engineer from Kinshasa, Congo.",
+        "location": "Kinshasa, Congo",
+        "websiteLink": "www.newyork.com",
+        "joinedDate": "Joined November 2023",
+        "followers": 100,
+        "following": 500
+    },
+    {
+        "id": 2,
+        "text": "Gardening boomed during the pandemic. Six Black writers share how it has helped them re-establish, and reimagine, a connection to cultivation and the land.",
+        "date": "2m",
+        "author": "The New York Times",
+        "pseudo": "@nytimes",
+        "badge": "src/images/Vector.svg",
+        "avatar": "src/images/image 1.svg",
+        "tweetImage": "src/images/tweet-image.png",
+        "likes": {
+            "liked": false,
+            "nb": "100"
+        },
+        "comments": "19",
+        "retweet": "48",
+        "share": "",
+        "post": "25",
+        "bio": "I'm a software engineer from Kinshasa, Congo.",
+        "location": "Kinshasa, Congo",
+        "websiteLink": "www.newyork.com",
+        "joinedDate": "Joined November 2023",
+        "followers": 10,
+        "following": 50
+    },
+    {
+        "id": 3,
+        "text": "BIG NEWS lol jk still Twitter",
+        "date": "Oct 29",
+        "author": "Twitter",
+        "pseudo": "@Twitter",
+        "badge": "src/images/Vector.svg",
+        "avatar": "src/images/image2.svg",
+        "tweetImage": "",
+        "likes": {
+            "liked": false,
+            "nb": "50"
+        },
+        "comments": "6.8K",
+        "retweet": "36.6",
+        "share": "",
+        "post": "25",
+        "bio": "I'm a software engineer from Kinshasa, Congo.",
+        "location": "Kinshasa, Congo",
+        "websiteLink": "www.newyork.com",
+        "joinedDate": "Joined November 2023",
+        "followers": 30,
+        "following": 5002
+    },
+    {
+        "id": 4,
+        "text": "hello literally everyone",
+        "date": "Oct 4",
+        "author": "Twitter",
+        "pseudo": "@Twitter",
+        "badge": "src/images/Vector.svg",
+        "avatar": "src/images/image2.svg",
+        "tweetImage": "",
+        "likes": {
+            "liked": false,
+            "nb": "15"
+        },
+        "comments": "118.7K",
+        "retweet": "785.4K",
+        "share": "",
+        "post": "25",
+        "bio": "I'm a software engineer from Kinshasa, Congo.",
+        "location": "Kinshasa, Congo",
+        "websiteLink": "www.newyork.com",
+        "joinedDate": "Joined November 2023",
+        "followers": 800,
+        "following": 300
+    },
+    {
+        "id": 5,
+        "text": "hello literally everyone",
+        "date": "Oct 4",
+        "author": "Twitter",
+        "pseudo": "@Twitter",
+        "badge": "src/images/Vector.svg",
+        "avatar": "src/images/image2.svg",
+        "tweetImage": "src/images/tweet-image.png",
+        "likes": {
+            "liked": false,
+            "nb": "45"
+        },
+        "comments": "118.7K",
+        "retweet": "785.4K",
+        "share": "",
+        "post": "25",
+        "bio": "I'm a software engineer from Kinshasa, Congo.",
+        "location": "Kinshasa, Congo",
+        "websiteLink": "www.newyork.com",
+        "joinedDate": "Joined November 2023",
+        "followers": 10,
+        "following": 50
+    }
+    
+] 
+
+}

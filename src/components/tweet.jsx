@@ -9,10 +9,7 @@ const Tweet = () => {
             {data.map((tweet) => (
                 <div className="tweet" key={tweet.id}>
                     <Link to={`/${tweet.author}`}>
-                        <TweetAvatar
-                            tweet={tweet}
-                            sourceAvatar={tweet.avatar}
-                        />
+                        <TweetAvatar sourceAvatar={tweet.avatar} />
                     </Link>
                     <TweetContent tweet={tweet} />
                 </div>

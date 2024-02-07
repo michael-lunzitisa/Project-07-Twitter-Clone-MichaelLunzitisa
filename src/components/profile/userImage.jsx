@@ -1,15 +1,17 @@
-import pictureProfile from "../../images/profile-photo.png";
-
-const UserImage = () => {
+const UserImage = ({ sourcePictureCouverture, sourcePictureProfile }) => {
     return (
         <div className="User__image">
             <div className="picture__couverture">
-                {/*<img src={photoCouverture} alt="picture couverture " className="picture__couverture"/>*/}
+                <img
+                    src={sourcePictureCouverture}
+                    alt="picture couverture "
+                    className="picture__couverture"
+                />
             </div>
             <div>
                 <img
-                    src={pictureProfile}
-                    alt="picture profile "
+                    src={sourcePictureProfile}
+                    alt="picture profile"
                     className="picture__profile"
                 />
             </div>
