@@ -1,4 +1,4 @@
-import Badge from "./Badge";
+import Badge from "../Badge";
 import TweetTitleAuthor from "./TweetTitleAuthor";
 import TweetTitleDetails from "./TweetTitleDetails";
 

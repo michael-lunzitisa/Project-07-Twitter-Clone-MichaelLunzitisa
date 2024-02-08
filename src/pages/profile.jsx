@@ -1,9 +1,9 @@
-import PageTitle from "../components/profile/profileTitle";
-import UserImage from "../components/profile/userImage";
-import ProfileNav from "../components/profile/profileNav";
-import TweetAvatar from "./../components/TweetAvatar";
-import TweetContent from "./../components/TweetContent";
-import UserAbout from "../components/profile/userAbout";
+import PageTitle from "../components/Profile/ProfileTitle";
+import UserImage from "../components/Profile/userImage";
+import ProfileNav from "../components/Profile/profileNav";
+import TweetAvatar from "../components/Tweets/TweetAvatar";
+import TweetContent from "../components/Tweets/TweetContent";
+import UserAbout from "../components/Profile/UserAbout";
 import datas from "../datas/data";
 import user from "../datas/user";
 import { useParams, Link } from "react-router-dom";

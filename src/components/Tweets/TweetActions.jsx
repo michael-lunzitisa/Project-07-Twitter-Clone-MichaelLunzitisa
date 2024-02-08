@@ -1,10 +1,10 @@
 import { useState } from "react";
 
-import ReplyIcon from "../images/Reply.svg";
-import RetweetIcon from "../images/Retweet.svg";
-import likesIcon from "../images/React.svg";
-import TweetAction from "../components/tweetAction";
-import RepliesIcon from "../images/Tweet-Replies.svg";
+import ReplyIcon from "../../images/Reply.svg";
+import RetweetIcon from "../../images/Retweet.svg";
+import likesIcon from "../../images/React.svg";
+import TweetAction from "./TweetAction";
+import RepliesIcon from "../../images/Tweet-Replies.svg";
 
 const TweetActions = ({ tweet }) => {
     const [likes, setLikes] = useState(tweet.likes);

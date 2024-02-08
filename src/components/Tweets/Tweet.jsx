@@ -1,6 +1,6 @@
 import TweetAvatar from "./TweetAvatar";
 import TweetContent from "./TweetContent";
-import data from "../datas/data";
+import data from "../../datas/data";
 import { Link } from "react-router-dom";
 
 const Tweet = () => {

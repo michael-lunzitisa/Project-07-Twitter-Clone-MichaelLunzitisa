@@ -1,7 +1,7 @@
-import Search from "../../components/trends/search";
-import TrendsCard from "../../components/trends/trendsCard";
-import Follow from "../../components/trends/follow";
-import Policy from "../../components/trends/policy";
+import Search from "./Search";
+import TrendsCard from "./TrendsCard";
+import Follow from "./follow";
+import Policy from "./policy";
 const Trends = () => {
     return (
         <div className="trends">

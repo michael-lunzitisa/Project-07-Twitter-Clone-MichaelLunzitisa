@@ -1,5 +1,5 @@
 import xIcon from "../../images/BirdTwitter.svg";
-import SidebarOption from ".././sidebar/SidebarOption";
+import SidebarOption from "../../components/Sidebar/SidebarOption";
 import home from "../../images/Home.svg";
 import explore from "../../images/Explore.svg";
 import notifications from "../../images/Notifications.svg";
@@ -13,9 +13,7 @@ import ProfileSetting from "./ProfileSetting";
 
 const Sidebar = () => {
     const { author } = useParams();
-    console.log(useParams());
     const username = author || "Bradley Ortiz";
-    console.log(username);
 
     return (
         <>
