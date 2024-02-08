@@ -1,13 +1,11 @@
-import Header from "../components/Header/Header";
-import Tweet from "./tweet";
-import TweetEditor from "./tweetEditor";
+import Header from "./Header";
+import TweetEditor from "./TweetEditor";
 
 const Timeline = () => {
     return (
         <div className="timeline">
             <Header />
             <TweetEditor />
-            <Tweet />
         </div>
     );
 };

@@ -1,6 +1,6 @@
-import Header from "../components/Header/Header";
-import Tweet from "./tweet";
-import TweetEditor from "./tweetEditor";
+import Header from "./Header";
+import Tweet from "./Tweet";
+import TweetEditor from "./TweetEditor";
 
 const Timeline = () => {
     return (

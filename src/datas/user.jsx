@@ -16,11 +16,6 @@ const user = [
     {
         id: "2",
         sourceCoverPhoto: "src/images/tweet-image.png",
-        sourceprofilePicture: "src/images/tweet-profile-photo.png",
-        name: "CNN",
-        username: "@CNN",
-        post: "35",
-        bio: "I'm a software webdesigner from Kinshasa, Congo.",
         sourceprofilePicture: "src/images/profile-photo.png",
         avatar: "src/images/profile-photo.png",
         name: "CNN",
