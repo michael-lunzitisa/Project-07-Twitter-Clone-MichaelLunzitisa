@@ -11,7 +11,6 @@ export default function App() {
     return (
         <BrowserRouter>
             <Sidebar />
-
             <Layout>
                 <Routes>
                     <Route path="/" element={<Home />} />

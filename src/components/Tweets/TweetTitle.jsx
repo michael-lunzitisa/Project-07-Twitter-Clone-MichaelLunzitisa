@@ -2,14 +2,14 @@ import Badge from "../Badge";
 import TweetTitleAuthor from "./TweetTitleAuthor";
 import TweetTitleDetails from "./TweetTitleDetails";
 
-const TweetTitle = ({ author, pseudo, date }) => {
+const TweetTitle = () => {
     return (
         <div className="tweet-title">
-            <TweetTitleAuthor author={author} />
+            <TweetTitleAuthor />
             <Badge />
-            <TweetTitleDetails value={pseudo} />
+            <TweetTitleDetails />
             <TweetTitleDetails value="." />
-            <TweetTitleDetails value={date} />
+            <TweetTitleDetails />
         </div>
     );
 };

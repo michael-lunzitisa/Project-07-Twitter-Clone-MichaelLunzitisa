@@ -1,11 +1,11 @@
-{ "current-user": {
+{ "currentUser": {
         "id": "1",
         "sourceCoverPhoto": "src/images/tweet-image.png",
         "sourceprofilePicture": "src/images/profile-photo.png",
         "avatar": "src/images/profile-photo.png",
         "name": "Bradley Ortiz",
         "username": "@bradley_",
-        "post": "25",
+        "post": "1",
         "bio": "I'm a software engineer from Kinshasa, Congo.",
         "location": "Kinshasa, Congo",
         "websiteLink": "www.newyork.com",
@@ -23,6 +23,7 @@
         "pseudo": "@CNN",
         "badge": "src/images/Vector.svg",
         "avatar": "src/images/tweet-profile-photo.png",
+        "coverImage": "src/images/tweet-image.png",
         "tweetImage": "",
         "likes": {
             "liked": false,
@@ -31,7 +32,7 @@
         "comments": "59",
         "retweet": "144",
         "share": "",
-        "post": "25",
+        "post": "2",
         "bio": "I'm a software engineer from Kinshasa, Congo.",
         "location": "Kinshasa, Congo",
         "websiteLink": "www.newyork.com",
@@ -47,6 +48,7 @@
         "pseudo": "@nytimes",
         "badge": "src/images/Vector.svg",
         "avatar": "src/images/image 1.svg",
+        "coverImage": "src/images/tweet-image.png",
         "tweetImage": "src/images/tweet-image.png",
         "likes": {
             "liked": false,
@@ -55,7 +57,7 @@
         "comments": "19",
         "retweet": "48",
         "share": "",
-        "post": "25",
+        "post": "5",
         "bio": "I'm a software engineer from Kinshasa, Congo.",
         "location": "Kinshasa, Congo",
         "websiteLink": "www.newyork.com",
@@ -71,6 +73,7 @@
         "pseudo": "@Twitter",
         "badge": "src/images/Vector.svg",
         "avatar": "src/images/image2.svg",
+        "coverImage": "src/images/tweet-image.png",
         "tweetImage": "",
         "likes": {
             "liked": false,
@@ -95,6 +98,7 @@
         "pseudo": "@Twitter",
         "badge": "src/images/Vector.svg",
         "avatar": "src/images/image2.svg",
+        "coverImage": "src/images/tweet-image.png",
         "tweetImage": "",
         "likes": {
             "liked": false,
@@ -119,6 +123,7 @@
         "pseudo": "@Twitter",
         "badge": "src/images/Vector.svg",
         "avatar": "src/images/image2.svg",
+        "coverImage": "src/images/tweet-image.png",
         "tweetImage": "src/images/tweet-image.png",
         "likes": {
             "liked": false,

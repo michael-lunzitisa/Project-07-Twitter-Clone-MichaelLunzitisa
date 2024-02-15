@@ -1,8 +1,12 @@
-const TweetImage = ({ source }) => {
-    if (source) {
+import { useContext } from "react";
+import { mappedContexte } from "./Tweet";
+const TweetImage = () => {
+    const { tweetImage } = useContext(mappedContexte);
+
+    if (tweetImage) {
         return (
             <div className="tweet-image">
-                <img src={source} alt="Image du tweet" />
+                <img src={tweetImage} alt="Image du tweet" />
             </div>
         );
     }

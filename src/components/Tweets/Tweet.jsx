@@ -1,17 +1,25 @@
 import TweetAvatar from "./TweetAvatar";
 import TweetContent from "./TweetContent";
-import data from "../../datas/data";
+// import data from "../../datas/data";
 import { Link } from "react-router-dom";
+import { dataContexte } from "../../context/DataContext";
+import { useContext } from "react";
+import { createContext } from "react";
 
+export const mappedContexte = createContext();
 const Tweet = () => {
+    const { tweets } = useContext(dataContexte);
+
     return (
         <>
-            {data.map((tweet) => (
+            {tweets.map((tweet) => (
                 <div className="tweet" key={tweet.id}>
-                    <Link to={`/${tweet.author}`}>
-                        <TweetAvatar sourceAvatar={tweet.avatar} />
-                    </Link>
-                    <TweetContent tweet={tweet} />
+                    <mappedContexte.Provider value={tweet}>
+                        <Link to={`/${tweet.author}`}>
+                            <TweetAvatar />
+                        </Link>
+                        <TweetContent />
+                    </mappedContexte.Provider>
                 </div>
             ))}
         </>

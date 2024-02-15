@@ -1,17 +1,11 @@
 import TweetBody from "./TweetBody";
 import TweetActions from "./TweetActions";
 
-const TweetContent = ({ tweet }) => {
+const TweetContent = () => {
     return (
         <div className="tweet-content">
-            <TweetBody
-                author={tweet.author}
-                pseudo={tweet.pseudo}
-                date={tweet.date}
-                text={tweet.text}
-                source={tweet.tweetImage}
-            />
-            <TweetActions tweet={tweet} />
+            <TweetBody />
+            <TweetActions />
         </div>
     );
 };

@@ -1,7 +1,11 @@
-const TweetAvatar = ({ sourceAvatar }) => {
+import { useContext } from "react";
+import { mappedContexte } from "./Tweet";
+const TweetAvatar = () => {
+    const { avatar } = useContext(mappedContexte);
+    console.log(useContext(mappedContexte));
     return (
         <div className="avatar">
-            <img src={sourceAvatar} alt="Imade du profile" />
+            <img src={avatar} alt="Imade du profile" />
         </div>
     );
 };
