@@ -4,7 +4,7 @@ import("./style/reset.css");
 import("./style/App.css");
 import Sidebar from "./components/sidebar/Sidebar.jsx";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Trends from "./components/trends/trends.jsx";
+import Trends from "./components/Trends/trends.jsx";
 import Profile from "./pages/profile.jsx";
 
 export default function App() {

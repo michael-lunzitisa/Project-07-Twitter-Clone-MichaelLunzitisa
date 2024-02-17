@@ -37,12 +37,17 @@ const TweetEditorForm = () => {
             following: 500,
         };
 
-        if (data.tweetText) {
-            axios
-                .post("http://localhost:8000/tweets", newTweet)
-                .then((res) => console.log(res))
-                .catch((error) => console.log(error.message));
-        }
+        const postData = data.tweetText
+            ? () => {
+                  axios
+                      .post("http://localhost:8000/tweets", newTweet)
+                      .then((res) => console.log(res))
+                      .catch((error) => console.log(error.message));
+              }
+            : undefined;
+
+        // Exécution de la fonction si elle est définie
+        postData && postData();
     };
 
     return (
@@ -58,7 +63,7 @@ const TweetEditorForm = () => {
                     required: "c'est champ est obligatoire",
                 })}
             />
-            <p>{errors.tweetText?.message}</p>
+            <p className="text-red-600">{errors.tweetText?.message}</p>
             <TweetEditorButtons />
         </form>
     );

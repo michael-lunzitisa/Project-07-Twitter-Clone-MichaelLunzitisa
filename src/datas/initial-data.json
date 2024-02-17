@@ -141,8 +141,8 @@
       "following": 50
     },
     {
-      "id": "6",
-      "text": "hello",
+      "id": 6,
+      "text": "Natus mollis beatae reprehenderit felis veniam cupiditate placerat? Hic accusantium exercitation et sociosqu facere, perferendis, fugiat aliquid irure, venenatis, tellus ad, officia, magnis eius, cras autem, quos turpis, optio euismod, omnis voluptatem fusce tincidunt, reiciendis sagittis, in assumenda laborum gravida",
       "date": "1m",
       "author": "Bradley Ortiz",
       "pseudo": "@bradley_",
@@ -166,33 +166,8 @@
       "following": 500
     },
     {
-      "id": "7",
-      "text": "bonjour",
-      "date": "1m",
-      "author": "Bradley Ortiz",
-      "pseudo": "@bradley_",
-      "badge": "src/images/Vector.svg",
-      "avatar": "src/images/profile-photo.png",
-      "coverImage": "src/images/tweet-image.png",
-      "tweetImage": "",
-      "likes": {
-        "liked": false,
-        "nb": "15"
-      },
-      "comments": 0,
-      "retweet": 0,
-      "share": "",
-      "post": 0,
-      "bio": "I'm a software engineer from Kinshasa, Congo.",
-      "location": "Kinshasa, Congo",
-      "websiteLink": "www.newyork.com",
-      "joinedDate": "Joined November 2023",
-      "followers": 100,
-      "following": 500
-    },
-    {
-      "id": 8,
-      "text": "dd",
+      "id": 7,
+      "text": "Suscipit taciti per, sunt. Occaecati elementum magnis iste laboriosam pariatur vel, nostra, aliquet, taciti exercitationem ab id! Mi. Sed aut natoque parturient sapien. Nobis. Aliquet",
       "date": "1m",
       "author": "Bradley Ortiz",
       "pseudo": "@bradley_",
