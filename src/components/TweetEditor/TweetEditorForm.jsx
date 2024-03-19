@@ -40,7 +40,10 @@ const TweetEditorForm = () => {
         const postData = data.tweetText
             ? () => {
                   axios
-                      .post("http://localhost:8000/tweets", newTweet)
+                      .post(
+                          "https://twitter-clone-api-c1-michael-lunzitisa.onrender.com/tweets",
+                          newTweet
+                      )
                       .then((res) => console.log(res))
                       .catch((error) => console.log(error.message));
               }

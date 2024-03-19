@@ -1,12 +1,12 @@
 import { useContext } from "react";
 import { mappedContexte } from "./Tweet";
 const TweetImage = () => {
-    const { tweetImage } = useContext(mappedContexte);
+    const { media } = useContext(mappedContexte);
 
-    if (tweetImage) {
+    if (media != "") {
         return (
             <div className="tweet-image">
-                <img src={tweetImage} alt="Image du tweet" />
+                <img src={media} alt="Image du tweet" />
             </div>
         );
     }

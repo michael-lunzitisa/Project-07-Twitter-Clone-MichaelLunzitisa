@@ -4,12 +4,12 @@ import TweetTitleDetails from "./TweetTitleDetails";
 
 const TweetTitle = () => {
     return (
-        <div className="tweet-title">
+        <div className="flex flex-row gap-2 text-lg">
             <TweetTitleAuthor />
             <Badge />
             <TweetTitleDetails />
-            <TweetTitleDetails value="." />
-            <TweetTitleDetails />
+            {/* <TweetTitleDetails value="." />
+            <TweetTitleDetails /> */}
         </div>
     );
 };

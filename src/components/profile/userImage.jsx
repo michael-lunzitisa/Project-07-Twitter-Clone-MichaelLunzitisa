@@ -1,16 +1,16 @@
-const UserImage = ({ sourcePictureCouverture, sourcePictureProfile }) => {
+const UserImage = ({ profileBackground, profilePicture }) => {
     return (
         <div className="User__image">
             <div className="picture__couverture">
                 <img
-                    src={sourcePictureCouverture}
+                    src={profileBackground}
                     alt="picture couverture "
                     className="picture__couverture"
                 />
             </div>
             <div>
                 <img
-                    src={sourcePictureProfile}
+                    src={profilePicture}
                     alt="picture profile"
                     className="picture__profile"
                 />

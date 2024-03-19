@@ -10,7 +10,7 @@ const TweetAction = ({ icon, reactions, handleClick, liked = false }) => {
                 onClick={handleClick}
                 className="likes-icon"
             />
-            <span>{liked ? reactions.nb : reactions}</span>
+            {reactions && <span>{liked ? reactions.nb : reactions}</span>}
         </div>
     );
 };

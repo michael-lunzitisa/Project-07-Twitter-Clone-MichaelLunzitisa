@@ -3,7 +3,7 @@ import TweetActions from "./TweetActions";
 
 const TweetContent = () => {
     return (
-        <div className="tweet-content">
+        <div className="flex flex-col items-start justify-start gap-4 w-full">
             <TweetBody />
             <TweetActions />
         </div>

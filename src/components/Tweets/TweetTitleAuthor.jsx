@@ -2,8 +2,8 @@ import { mappedContexte } from "./Tweet";
 import { useContext } from "react";
 
 const TweetTitleAuthor = () => {
-    const { author } = useContext(mappedContexte);
-    return <span className="tweet-title-author">{author}</span>;
+    const tweet = useContext(mappedContexte);
+    return <span className="tweet-title-author">{tweet.name}</span>;
 };
 
 export default TweetTitleAuthor;

@@ -1,24 +1,23 @@
-import PageTitle from "../components/Profile/ProfileTitle";
+import PageTitle from "../components/profile/profileTitle";
 import UserImage from "../components/Profile/UserImage";
 import ProfileNav from "../components/profile/profileNav";
 import TweetAvatar from "../components/Tweets/TweetAvatar";
 import TweetContent from "../components/Tweets/TweetContent";
 import UserAbout from "../components/Profile/UserAbout";
-
 import { useParams, Link } from "react-router-dom";
 import { mappedContexte } from "../components/Tweets/Tweet";
 import { useContext } from "react";
 import { dataContexte } from "../context/DataContext";
 
 const Profile = () => {
-    const { tweets, currentUser } = useContext(dataContexte);
+    const { data, loading } = useContext(dataContexte);
     const { author } = useParams();
 
-    const userFind = currentUser.name === author;
-    const data = tweets.filter((user) => user.author === author);
+    // const userFind = currentUser.name === author;
+    // const datas = tweets.filter((user) => user.author === author);
     return (
         <div className="timeline">
-            <div>
+            {/* <div>
                 {userFind && (
                     <div>
                         <PageTitle
@@ -44,39 +43,41 @@ const Profile = () => {
                         />
                     </div>
                 )}
-            </div>
+            </div> */}
             <div>
-                {data.slice(0, 1).map((tweet) => (
-                    <div key={tweet.id}>
-                        <PageTitle name={tweet.author} post={tweet.post} />
-                        <UserImage
-                            sourcePictureCouverture={tweet.coverImage}
-                            sourcePictureProfile={tweet.avatar}
-                        />
-                        <UserAbout
-                            name={tweet.author}
-                            username={tweet.pseudo}
-                            joinedDate={tweet.joinedDate}
-                            bio={tweet.bio}
-                            followers={tweet.followers}
-                            following={tweet.following}
-                        />{" "}
-                    </div>
-                ))}
+                {loading &&
+                    data.slice(0, 1).map((tweet) => (
+                        <div key={tweet.id}>
+                            <PageTitle name={tweet.author} post={tweet.post} />
+                            <UserImage
+                                profileBackground={tweet.profileBackground}
+                                profilePicture={tweet.profilePicture}
+                            />
+                            <UserAbout
+                                name={tweet.author}
+                                handle={tweet.handle}
+                                createdAt={tweet.joinedDate}
+                                bio={tweet.bio}
+                                followersCount={tweet.followersCount}
+                                followingCount={tweet.followingCount}
+                            />{" "}
+                        </div>
+                    ))}
             </div>
 
             <ProfileNav />
             <div>
-                {data.map((tweet) => (
-                    <div className="tweet" key={tweet.id}>
-                        <mappedContexte.Provider value={tweet}>
-                            <Link to={`/${tweet.author}`}>
-                                <TweetAvatar />
-                            </Link>
-                            <TweetContent />
-                        </mappedContexte.Provider>
-                    </div>
-                ))}
+                {loading &&
+                    data.map((tweet) => (
+                        <div className="tweet" key={tweet.id}>
+                            <mappedContexte.Provider value={tweet}>
+                                <Link to={`/${tweet.author}`}>
+                                    <TweetAvatar />
+                                </Link>
+                                <TweetContent />
+                            </mappedContexte.Provider>
+                        </div>
+                    ))}
             </div>
         </div>
     );

@@ -4,7 +4,7 @@ import TweetImage from "./TweetImage";
 
 const TweetBody = () => {
     return (
-        <div className="tweet-body">
+        <div className="flex flex-col gap-1/2">
             <TweetTitle />
             <TweetText />
             <TweetImage />
