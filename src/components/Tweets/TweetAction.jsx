@@ -1,6 +1,6 @@
 import React from "react";
 
-const TweetAction = ({ icon, reactions, handleClick, liked = false }) => {
+const TweetAction = ({ icon, reactions, handleClick }) => {
     // console.log(reactions, "Tweet action");
     return (
         <div className="tweet-action">
@@ -10,7 +10,7 @@ const TweetAction = ({ icon, reactions, handleClick, liked = false }) => {
                 onClick={handleClick}
                 className="likes-icon"
             />
-            {reactions && <span>{liked ? reactions.nb : reactions}</span>}
+            <span>{reactions}</span>
         </div>
     );
 };

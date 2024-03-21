@@ -8,33 +8,32 @@ import RepliesIcon from "../../images/Tweet-Replies.svg";
 import { useContext } from "react";
 import { mappedContexte } from "./Tweet";
 
-const TweetActions = ({ tweet }) => {
-    const { likes, comments, retweet, share } = useContext(mappedContexte);
-    const [like, setLikes] = useState(likes);
+const TweetActions = () => {
+    const { favoriteCount, retweetCount, repliesCount } =
+        useContext(mappedContexte);
+    const [likeCount, setLikeCount] = useState(favoriteCount);
+    const [isLiked, setIsLiked] = useState(false);
 
     const handleLikeClick = () => {
-        console.log(likes);
-        if (!like.liked) {
-            setLikes((currentLikes) => {
-                return { nb: currentLikes.nb + 1, liked: true };
-            });
+        if (!isLiked) {
+            setLikeCount((currentLinke) => currentLinke + 1);
+            setIsLiked(true);
         } else {
-            setLikes((currentLikes) => {
-                return { nb: currentLikes.nb - 1, liked: false };
-            });
+            setLikeCount((dislikes) => dislikes - 1);
+            setIsLiked(false);
         }
     };
+
     return (
         <div className="tweet-actions ">
-            <TweetAction icon={ReplyIcon} reactions={comments} />
-            <TweetAction icon={RetweetIcon} reactions={retweet} />
+            <TweetAction icon={ReplyIcon} reactions={repliesCount} />
+            <TweetAction icon={RetweetIcon} reactions={retweetCount} />
             <TweetAction
                 icon={likesIcon}
-                reactions={likes}
+                reactions={likeCount}
                 handleClick={handleLikeClick}
-                liked={true}
             />
-            <TweetAction icon={RepliesIcon} reactions={share} />
+            <TweetAction icon={RepliesIcon} reactions="" />
         </div>
     );
 };

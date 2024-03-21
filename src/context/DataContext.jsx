@@ -7,7 +7,7 @@ import axios from "axios";
 export const dataContexte = createContext();
 
 export const Provider = ({ children }) => {
-    const [data, setData] = useState({});
+    const [data, setData] = useState([]);
     const [loading, setLoading] = useState(false);
 
     useEffect(() => {
