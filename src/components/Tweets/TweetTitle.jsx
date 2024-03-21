@@ -9,7 +9,7 @@ const TweetTitle = () => {
             <Badge />
             <TweetTitleDetails />
             {/* <TweetTitleDetails value="." />
-            <TweetTitleDetails /> */}
+            <TweetTitleDetails />  */}
         </div>
     );
 };
